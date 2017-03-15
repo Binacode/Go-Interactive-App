@@ -22,11 +22,17 @@ func main() {
 
 	// Prioridad aritmética
 	// * / + -
+	// () % * / + -
+	// módulo es el residuo de la división.
+	// 14 % 6
 	// d := 6 + 6*6 - 6
 	// fmt.Println(d)
-
+	var in int8
 	var nombre string
 	var numero int
 	var aprender bool
 	fmt.Printf(nombre, numero, aprender)
+	
+	in = 14 % 6
+	fmt.Printf("\n numero: %d",in)
 }
