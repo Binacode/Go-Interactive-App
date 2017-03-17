@@ -59,13 +59,13 @@ func main(){
 		}*/
 		
 			switch a := 30; {
-			case a>= 0 && a <= 5:
-				fmt.Println("You are on week")
-			case a>= 6 && a <= 7:
-				fmt.Println("You are on weekend")
-			default:
-				fmt.Println("It isn't a valid day")
-		}
+				case a>= 0 && a <= 5:
+					fmt.Println("You are on week")
+				case a>= 6 && a <= 7:
+					fmt.Println("You are on weekend")
+				default:
+					fmt.Println("It isn't a valid day")
+			}
 
 
 }
